@@ -22,7 +22,6 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #4169E1
 }
 p {
     font-size: 1.0em;
@@ -41,15 +40,4 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
-
-.column {
-  float: left;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
