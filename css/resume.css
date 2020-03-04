@@ -33,20 +33,20 @@ ul.posts li {
   clear: both;
 }
 
-/* The sidebar menu */
+/* The sidebar menu - Credit: w3schools */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
+  width: 250px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
+  background-color: #D3D3D3; /* Light Gray */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
 
-/* The navigation menu links */
+/* The navigation menu links 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -55,19 +55,21 @@ ul.posts li {
   display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
+When you mouse over the navigation links, change their color --comment
 .sidenav a:hover {
   color: #f1f1f1;
 }
 
-/* Style page content */
+Style page content -- comment
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 160px; Same as the width of the sidebar -- code w/comment
   padding: 0px 10px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) -- comment
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+*/
