@@ -23,7 +23,7 @@ ul.posts li {
 }
 
 .column {
-  float: left;
+  float: right;
 }
 
 /* Clear floats after the columns */
