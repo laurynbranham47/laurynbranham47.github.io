@@ -59,9 +59,9 @@ ul.posts li {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 175px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  top: 275; /* Stay at the top */
+  top: 325; /* Stay at the top */
   left: 0;
-  background-color: #ADD8E6; /* Light Blue */
+  background-color: #4169E1; /* Darker Blue */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -84,7 +84,7 @@ ul.posts li {
 
 /* Style page content */
 .main {
-  margin-left: 60px; /* Same as the width of the sidebar */
+  margin-left: 15px; /* Same as the width of the sidebar */
   padding: 0px 10px;
 }
 
