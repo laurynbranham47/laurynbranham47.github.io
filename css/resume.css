@@ -22,7 +22,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #50BBF8 /* Light Blue */
+    color: #4D9DF7 /* Light Blue */
 }
 p {
     font-size: 1.0em;
@@ -61,7 +61,7 @@ ul.posts li {
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #50BBF8; /* Light Blue */
+  background-color: #4D9DF7; /* Light Blue */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
