@@ -2,35 +2,16 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-
-.menu {
-  float: right;
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
-
-.menu ul {
-  list-style: none;
-  margin: 8px;
-  padding: 0
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
-
-.menu li {
-  display: inline-block;
-  padding: 0 20px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #333;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: 'Lato';
-}
-
-.menu a:hover {
-  text-decoration: underline;
-}
-
 a {
     text-decoration: none;
     color: #999;
@@ -52,19 +33,18 @@ footer {
     font-size: .8em;
 }
 
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
 
 .header-img {
   width: 150%;
   height: 400px;
   background: url('http://www.kodhus.com/freecourse-images/header-image.jpg');
   background-size: cover;
-}
-section {
-  padding: 40px 120px;
-}
-section#about img {
-  float: left;
-}
-section#about .content {
-  margin-left: 220px;
 }
