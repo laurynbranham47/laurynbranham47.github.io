@@ -26,9 +26,14 @@ h1 {
     color: #266EDB /* Light Blue */
 }
 h2 {
-    font-size: 2.25em;
+    font-size: 2.0em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #266EDB /* Light Blue */   
+}
+h3 {
+    font-size: 1.25em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
 }
 p {
     font-size: 1.0em;
