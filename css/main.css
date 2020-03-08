@@ -59,3 +59,12 @@ footer {
   background: url('http://www.kodhus.com/freecourse-images/header-image.jpg');
   background-size: cover;
 }
+section {
+  padding: 40px 120px;
+}
+section#about img {
+  float: left;
+}
+section#about .content {
+  margin-left: 220px;
+}
