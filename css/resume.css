@@ -25,6 +25,11 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #266EDB /* Light Blue */
 }
+h2 {
+    font-size: 2.25em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #266EDB /* Light Blue */   
+}
 p {
     font-size: 1.0em;
     line-height: 1.4em;
@@ -71,7 +76,7 @@ ul.posts li {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
   font-weight: bold;
   color: #FEFEFF; /* White */
@@ -80,7 +85,7 @@ ul.posts li {
 
 /* When you mouse over the navigation links, change their color  */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #F7F00B; /* Yellow */
 }
 
 /* Style page content */
