@@ -23,7 +23,7 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #4D9DF7 /* Light Blue */
+    color: #266EDB /* Light Blue */
 }
 p {
     font-size: 1.0em;
@@ -62,7 +62,7 @@ ul.posts li {
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #4D9DF7; /* Light Blue */
+  background-color: #266EDB; /* Light Blue */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -74,7 +74,7 @@ ul.posts li {
   font-size: 12px;
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
   font-weight: bold;
-  color: #818181;
+  color: #FEFEFF; /* White */
   display: block;
 }
 
