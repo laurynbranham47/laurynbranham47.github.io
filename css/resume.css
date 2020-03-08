@@ -2,28 +2,16 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-.menu {
-  float: right;
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    margin-left: 25px;
 }
-.menu ul {
-  list-style: none;
-  margin: 8px;
-  padding: 0
-}
-.menu li {
-  display: inline-block;
-  padding: 0 20px;
-}
-.menu a {
-  text-decoration: none;
-  color: #333;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: 'Lato';
-}
-.menu a:hover {
-  text-decoration: underline;
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
@@ -56,6 +44,15 @@ p, ul {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
 }
 
 .column {
@@ -109,4 +106,3 @@ footer {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
